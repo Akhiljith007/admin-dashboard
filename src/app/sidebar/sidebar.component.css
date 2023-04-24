@@ -1,0 +1,37 @@
+.profile{
+    text-align: center;
+}
+
+.profile img{width: 150px;
+height: 150px;
+
+/* aa image correct center aakn aanu athva allel */
+object-fit: contain;}
+
+.profile h3{font-weight: 600;
+margin-bottom: 0px;}
+
+h2{font-size: medium;
+padding-left: 10px;
+font-weight: 500;
+margin-bottom: 0;}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.pages a{
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    padding: 10px 0 0 10px;
+}
+
+.pages a:hover{background-color: coral;}
+mat-icon{vertical-align: middle;
+
+    /* vertical align koduthe aa icon text ne kaatilum kurachude pongi aanu ninne athinte same nere vrn aanu ingne kodukkunne */
+
+margin-right: 5px;}
